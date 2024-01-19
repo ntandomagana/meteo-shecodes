@@ -1,0 +1,10 @@
+body {
+  background-color: yellow(218, 209, 225);
+}
+
+.weather-app {
+  background: rgb(165, 88, 224);
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+}
