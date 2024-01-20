@@ -3,8 +3,8 @@
 
 
 body {
-    background-color: white;
-    font-family: "Roboto", sans-serif;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
 }
 
 .weather-app {
@@ -34,15 +34,10 @@ body {
     width: 80%;
     padding: 15px 20px;
 }
-/*
-.search-form-input {
-    background-color: #75b0ea;
-    padding: 15px 20px;
-    border: none;
-    border-radius: 6px;
-    color: white;
 
-} */
+
+
+}
 
 footer a {
     color: #fff;

@@ -3,8 +3,8 @@
 
 
 body {
-    background-color: white;
-    font-family: "Roboto", sans-serif;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
 }
 
 .weather-app {
@@ -42,7 +42,7 @@ body {
     border-radius: 6px;
     color: white;
 
-} */
+}
 
 footer a {
     color: #fff;
