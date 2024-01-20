@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    border-bottom: 1px solid #f9f7fe;
+    border-bottom: 1px solid #63a3f0;
     padding: 0 0 10px 0;
 }
 
@@ -72,23 +72,12 @@ header {
 .weather-icon {
     font-size: 44px;
     margin-top: 22px;
-    margin-left: 10px;
 }
 
 .weather-temperature {
     font-size: 88px;
     margin-left: 22px;
 }
-
-.weather-unit {
-    font-size: 30px;
-    margin-top: 15px;
-}
-
-footer {
-    border-top: 1px solid #f9f7fe;
-    padding: 30px 0 0 0;
-    text-align: center;
-    font-size: 14px;
-    color: rgba(12, 49, 84, 0.6);
+footer a {
+    color: #fff;
 }

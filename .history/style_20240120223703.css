@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.weather-container {
+    width: 900%;
+    max-width: 600px;
+    background: linear-gradient(135deg, #8dc6ff,  #e4f1fe  );
+    color: #34495e;
+    margin: 40px auto;
+    padding: 30px;
+    box-shadow: 0 30px 50px rgba(185, 164, 235, 0.08);
+    border-radius: 10px;
+    justify-content: center
+}
+
+header {
+    border-bottom: 1px solid #c6d9f1;
+    padding: 0 0 30px 0;
+}
+
+.search-form-button {
+    background: #c6dcf2;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid #8dc6ff;
+    border-radius: 15px
+}
+
+
+.search-form-input {
+    background-color: #8dc6ff;
+    border: 1px solid #8dc6ff;;
+    border-radius: 16px;
+    width: 80%;
+    padding: 15px 20px;
+}
+
+
+footer a {
+    color: #fff;
+}
