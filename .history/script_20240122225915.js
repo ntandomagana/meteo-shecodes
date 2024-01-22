@@ -8,19 +8,6 @@ function searchCity(city) {
     axios.get(apiUrl).then(refreshWeather);
 }
 
-// implementing search bar and api request
-
-function displayWeatherInfo(response) {
-    document.querySelector("#searched-city").innerHTML = response.data.name;
-    const temperature = Math.round(response.data.main.temp);
-    document.querySelector("#current-temperature").innerHTML = `${temperature}°`;
-    const humidity = response.data.main.humidity;
-    document.querySelector("#humidity").innerHTML = `${humidity}%`;
-    const windSpeed = Math.round(response.data.wind.speed);
-    document.querySelector("#wind").innerHTML = `${wind}km/h`;
-    document.querySelector("#weather-type").innerHTML = response.data.weather[0].main
-}
-
 // Function to handle form submission and update the displayed city
 function handleSearchSubmit(event) {
     event.preventDefault();
@@ -76,12 +63,6 @@ function formatDay(date) {
     return day;
 }
 
+
 // getting current time and day and displaying it
-const currentTime = document.querySelector("#current-time");
-let newCurrentTime = new Date();
-currentTime.innerHTML = formatTime(newCurrentTime);
-
-const currentDay = document.querySelector("#current-day");
-let newCurrentDay = new Date();
-currentDay.innerHTML = formatDay(newCurrentDay);
-
+const currentTime = document.querySelector(())

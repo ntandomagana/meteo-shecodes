@@ -76,6 +76,7 @@ function formatDay(date) {
     return day;
 }
 
+
 // getting current time and day and displaying it
 const currentTime = document.querySelector("#current-time");
 let newCurrentTime = new Date();
