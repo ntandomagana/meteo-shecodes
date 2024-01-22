@@ -45,5 +45,5 @@ function formatTime(date) {
         minutes = `0${minutes}`;
     }
 
-    return `${hours}:${minutes}`;
+    return `${hours}:${minutes}`;;
 }

@@ -32,7 +32,7 @@ searchFormElement.addEventListener("submit", handleSearchSubmit);
 searchCity("Johannesburg");
 
 
-// c
+// formatting time and day
 
 function formatTime(date) {
     let hours = date.getHours();
@@ -45,5 +45,5 @@ function formatTime(date) {
         minutes = `0${minutes}`;
     }
 
-    return `${hours}:${minutes}`;
+    
 }
