@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color:#fab57a
+    color:#fab57a;
 }
 
 header {
@@ -76,23 +76,7 @@ main {
   font-weight: bold;
 }
 
-.forecast-weather ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
-.forecast-weather li {
-  text-align: center;
-  margin: 10px 0;
-  background-color: rgba(255, 255, 255, 0.2);
-  color: grey;
-  border-radius: 5px;
-  padding: 10px;
-}
+  33
 
 .time {
   position: relative;

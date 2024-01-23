@@ -13,6 +13,16 @@ function displayWeatherInfo(response) {
   currentTemp.innerHTML = Math.round(`${response.data.temperature.current}`);
 }
 
+function search(event) {
+  event.preventDefault();
+
+  let searchInput = document.querySelector("#search-input");
+  let apiKey = "524a99a4fcd0df4388dto8e069b84440";
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${searchInput.value}&key=${apiKey}&units=metric`;
+
+  axios.get(apiUrl).then(searchTemp);
+}
+
 function formatDate(date) {
   let minutes = date.getMinutes();
   let hours = date.getHours();

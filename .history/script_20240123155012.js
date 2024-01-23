@@ -5,12 +5,24 @@ function searchCity(city) {
   axios.get(apiUrl).then(displayWeatherInfo);
 }
 
-function displayWeatherInfo(response) {
+
+
+function searchTemp(response) {
   let currentCity = document.querySelector("#current-city");
   currentCity.innerHTML = `${response.data.city}`;
 
   let currentTemp = document.querySelector(".current-temperature-value");
   currentTemp.innerHTML = Math.round(`${response.data.temperature.current}`);
+}
+
+function search(event) {
+  event.preventDefault();
+
+  let searchInput = document.querySelector("#search-input");
+  let apiKey = "524a99a4fcd0df4388dto8e069b84440";
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${searchInput.value}&key=${apiKey}&units=metric`;
+
+  axios.get(apiUrl).then(searchTemp);
 }
 
 function formatDate(date) {
