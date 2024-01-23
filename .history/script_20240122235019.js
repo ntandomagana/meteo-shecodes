@@ -5,15 +5,6 @@ function searchCity(city) {
   axios.get(apiUrl).then(displayWeatherInfo);
 }
 
-function handleSubmit(event) {
-  event.preventDefault();
-  let city = document.querySelector("#search-input").value;
-  searchCity(city);
-}
-
-const searchBar = document.querySelector("#search-form");
-searchBar.addEventListener("submit", handleSubmit);
-
 // formatting time and day
 function formatTime(date) {
   let hours = date.getHours();
