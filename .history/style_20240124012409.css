@@ -18,7 +18,7 @@ main {
   padding: 30px 0;
 }
 
-.my-weather {
+.weather-app {
   max-width: 650px;
   margin: 60px auto;
   padding: 30px;
@@ -37,7 +37,7 @@ main {
   background-color: #f1d7c153;
 }
 
-.search-form-button {
+.search-button {
   margin-left: 5px;
   font-size: 16px;
   background-color: #fab57a;

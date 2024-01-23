@@ -18,7 +18,7 @@ main {
   padding: 30px 0;
 }
 
-.my-weather {
+.weather-app {
   max-width: 650px;
   margin: 60px auto;
   padding: 30px;
@@ -49,26 +49,26 @@ main {
   cursor: pointer;
 }
 
-.current-weather {
+.weather-app-data {
   display: flex;
   justify-content: space-between;
 }
 
-.current-weather h1 {
+.weather-app-city {
   font-size: 38px;
   font-weight: 900;
   margin: 0;
   padding-bottom: 5px;
 }
 
-.current-weather p {
+.weather-app-details{
   font-size: 15px;
   color: grey;
   font-weight: 400;
   line-height: 1.8;
 }
 
-.current-weather strong {
+.weather-appdetails strong {
   color: red;
 }
 
