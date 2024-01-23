@@ -46,7 +46,6 @@ main {
   padding: 20px;
   line-height: 1;
   border-radius: 5px;
-  cursor: pointer;
 }
 
 .current-weather {

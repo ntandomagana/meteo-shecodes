@@ -46,4 +46,4 @@ searchForm.addEventListener("submit", search);
 let currentDateELement = document.querySelector("#current-date");
 let currentDate = new Date();
 
-currentDateELement.innerHTML = formatDate(currentDate);
+currentDateElement.innerHTML = formatDate(currentDate);
